@@ -1,0 +1,208 @@
+/* public style */
+
+.row {
+  /* to put items next to each other */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+/* footer */
+
+#footer {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background-color: #4651b1;
+}
+
+#footer .footer-logo img {
+  height: 30px;
+  width: 30px;
+  background-color: #4651b1;
+}
+
+#footer .footer-info {
+  padding: 30px 20px 0px 0px;
+}
+
+#footer .footer-info a {
+  color: white;
+}
+
+/* navbar */
+
+nav {
+  background-color: white;
+  box-shadow: 0 5px 15px rgb(25 25 25 / 10%);
+  padding: 2%;
+  /* make navbar fixed */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav img {
+  height: 30px;
+  width: 30px;
+}
+
+nav .main-title {
+  width: 20%;
+  color: black;
+  padding: 0px 170px 0px 0px;
+}
+
+nav .nav-list {
+  width: 60%;
+}
+
+nav .nav-list .list {
+  display: flex;
+  justify-content: right;
+}
+
+nav .nav-list .list-item a {
+  margin-right: 20px;
+  position: relative;
+  color: black;
+}
+
+nav .nav-list .list-item a:hover {
+  color: #4651b1;
+}
+
+/* breadcrumb */
+
+.breadcrumb nav {
+  margin-top: 8px;
+  box-shadow: none;
+  padding: 10px 16px;
+  list-style: none;
+  background-color: white;
+}
+
+.breadcrumb nav .breadcrumb-list li {
+  display: inline;
+  font-size: 18px;
+}
+
+.breadcrumb nav .breadcrumb-list .list-item a {
+  color: black;
+}
+
+.breadcrumb nav .breadcrumb-list .list-item a:hover {
+  color: #4651b1;
+}
+
+.breadcrumb nav .breadcrumb-list .list-item a:active {
+  color: #4651b1;
+  font-weight: bold;
+}
+
+/* contents */
+
+.contents .single {
+  margin: 5px;
+}
+
+.single nav {
+  width: 200px;
+  text-align: center;
+  box-shadow: none;
+  height: 550px;
+}
+
+.single nav .main-list .list-item {
+  margin-top: 60px;
+}
+
+.single nav .main-list .list-item a {
+  margin-right: 20px;
+  position: relative;
+  color: black;
+}
+
+.single nav .main-list .list-item a:hover {
+  color: #4651b1;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 5px;
+  background: #4651b1;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid #4651b1;
+  font-size: 15px;
+}
+
+.add {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 990px;
+  height: 550px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.add form {
+  padding: 1rem;
+}
+
+.add form .inputbox {
+  padding: 5px 0;
+}
+
+.add form .inputbox input {
+  width: 400px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.add form .inputbox select {
+  width: 410px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.add form .inputbox h3 {
+  font-size: 17px;
+  color: black;
+}
+
+.add .inputbox input:required {
+  background-color: rgb(242, 236, 255);
+  border: 1px solid white;
+}

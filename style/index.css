@@ -1,0 +1,133 @@
+/* public style */
+
+.row {
+  /* to put items next to each other */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+/* navbar */
+
+nav {
+  background-color: white;
+  box-shadow: 0 5px 15px rgb(25 25 25 / 10%);
+  padding: 2%;
+  /* make navbar fixed */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav img {
+  height: 30px;
+  width: 30px;
+}
+
+nav .main-title {
+  width: 20%;
+  color: black;
+  padding: 0px 170px 0px 0px;
+}
+
+nav .nav-list {
+  width: 60%;
+}
+
+nav .nav-list .list {
+  display: flex;
+  justify-content: right;
+}
+
+nav .nav-list .list-item a {
+  margin-right: 20px;
+  position: relative;
+  color: black;
+}
+
+nav .nav-list .list-item a:hover {
+  color: #4651b1;
+}
+
+/* header */
+
+header {
+  background-color: white;
+}
+
+header .container .header-content {
+  height: 530px;
+  text-align: center;
+  display: flex;
+}
+
+header .container img {
+  border-radius: 30%;
+  margin: 1px 140px 20px 5px;
+  height: 400px;
+  width: 430px;
+  background-color: white;
+}
+
+header .header-content h1 {
+  padding: 130px 50px 100px 200px;
+  font-size: 50px;
+  text-align: center;
+  margin: 40px;
+}
+
+header .header-content h1 span {
+  color: #4651b1;
+}
+
+/* footer */
+
+#footer {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background-color: #4651b1;
+}
+
+#footer .footer-logo img {
+  height: 30px;
+  width: 30px;
+  background-color: #4651b1;
+}
+
+#footer .footer-info {
+  padding: 30px 20px 0px 0px;
+}
+
+#footer .footer-info a {
+  color: white;
+}

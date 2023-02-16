@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+
+    <link rel="stylesheet" href="style/add.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="images/logo.png" alt="photo" />
+                <a href="#" class="main-title">Online Team Management</a>
+    
+                <div class="nav-list">
+                    <ul class="list">
+                        <li class="list-item"><a href="about.html">About</a></li>
+                        <li class="list-item"><a href="contact.html">Contact</a></li>
+                        <li class="list-item"><a href="index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="breadcrumb">
+        <nav>
+            <ul class="breadcrumb-list">
+                <li class="list-item"><a href="home.html">Home Page &gt;</a></li>
+                <li class="list-item"><a href="add task.html">Add New Task &gt;</a></li>
+                <li class="list-item"><a href="late task.html">Late Tasks &gt;</a></li>
+                <li class="list-item"><a href="pending task.html">Pending Tasks &gt;</a></li>
+                <li class="list-item"><a href="active task.html">Active Tasks &gt;</a></li>
+                <li class="list-item"><a href="search.html">Search Page</a></li>
+              </ul>
+        </nav>
+    </section>
+
+    <section class="contents">
+        <div class="row">
+            <div class="single">
+                <nav>
+                        <div class="main-list">
+                            <ul>
+                                <li class="list-item"><a href="home.html">Home Page</a></li>
+                                <li class="list-item"><a href="search.html">Search Page</a></li>
+                                <li class="list-item"><a href="add task.html">Add New Task</a></li>
+                                <li class="list-item"><a href="late task.html">Late Tasks</a></li>
+                                <li class="list-item"><a href="pending task.html">Pending Tasks</a></li>
+                                <li class="list-item"><a href="active task.html">Active Tasks</a></li>
+                            </ul>
+                        </div>
+                </nav>
+            </div>
+
+            <section class="add">
+                <form method="" action="">
+                    <div class="inputbox">
+                        <h3>Title</h3>
+                        <input type="text" id=" title" name=" title" required>
+                    </div>
+                    <div class="inputbox">
+                        <h3>Description</h3>
+                        <input type="text" id="description" name="description" optional>
+                    </div>
+                    <div class="inputbox">
+                        <h3>Start Date</h3>
+                        <input type="date" id="start_date" name="start_date" required>
+                    </div>
+                    <div class="inputbox">
+                        <h3>End Date</h3>
+                        <input type="date" id="start_date" name="start_date" required>
+                    </div>
+                    <div class="inputbox">
+                        <h3>Priority</h3>
+                        <select name="priority" id="priority" optional>
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                    </div>
+                    <div class="inputbox">
+                        <h3>Assigned To Member</h3>
+                        <input type="text" id="assigned_to" name="assigned_to" required>
+                    </div>
+                    <div class="inputbox">
+                        <h3>Assigning Member</h3>
+                        <input type="text" id="assigning_member" name="assigning_member" required>
+                    </div>
+                    <div class="inputbox">
+                        <h3>Status</h3>
+                        <select name="status" id="status" optional>
+                            <option value="1">Pending</option>
+                            <option value="2">Active</option>
+                            <option value="3">Late</option>
+                            <option value="3">Finished</option>
+                          </select>
+                    </div>
+                    
+                    <input type="submit" class="button" value="Add" />
+                </form>
+            </section>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="photo" />
+                    <p>Online Team Management Applications <span>&copy;</span></p>
+                </div>
+
+                <div class="footer-info">
+                    <p>Jerusalem | 0567876544 | <a href="#">Email</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

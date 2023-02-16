@@ -1,0 +1,208 @@
+/* public style */
+
+.row {
+  /* to put items next to each other */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+/* footer */
+
+#footer {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background-color: #4651b1;
+}
+
+#footer .footer-logo img {
+  height: 30px;
+  width: 30px;
+  background-color: #4651b1;
+}
+
+#footer .footer-info {
+  padding: 30px 20px 0px 0px;
+}
+
+#footer .footer-info a {
+  color: white;
+}
+
+/* navbar */
+
+nav {
+  background-color: white;
+  box-shadow: 0 5px 15px rgb(25 25 25 / 10%);
+  padding: 2%;
+  /* make navbar fixed */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav img {
+  height: 30px;
+  width: 30px;
+}
+
+nav .main-title {
+  width: 20%;
+  color: black;
+  padding: 0px 170px 0px 0px;
+}
+
+nav .nav-list {
+  width: 60%;
+}
+
+nav .nav-list .list {
+  display: flex;
+  justify-content: right;
+}
+
+nav .nav-list .list-item a {
+  margin-right: 20px;
+  position: relative;
+  color: black;
+}
+
+nav .nav-list .list-item a:hover {
+  color: #4651b1;
+}
+
+/* breadcrumb */
+
+.breadcrumb nav {
+  margin-top: 8px;
+  box-shadow: none;
+  padding: 10px 16px;
+  list-style: none;
+  background-color: white;
+}
+
+.breadcrumb nav .breadcrumb-list li {
+  display: inline;
+  font-size: 18px;
+}
+
+.breadcrumb nav .breadcrumb-list .list-item a {
+  color: black;
+}
+
+.breadcrumb nav .breadcrumb-list .list-item a:hover {
+  color: #4651b1;
+}
+
+.breadcrumb nav .breadcrumb-list .list-item a:active {
+  color: #4651b1;
+  font-weight: bold;
+}
+
+/* contents */
+
+.contents .single {
+  margin: 5px;
+}
+
+.single nav {
+  width: 200px;
+  text-align: center;
+  box-shadow: none;
+  height: 490px;
+}
+
+.single nav .main-list .list-item {
+  margin-top: 55px;
+}
+
+.single nav .main-list .list-item a {
+  margin-right: 20px;
+  position: relative;
+  color: black;
+}
+
+.single nav .main-list .list-item a:hover {
+  color: #4651b1;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 5px;
+  background: #4651b1;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid #4651b1;
+  font-size: 15px;
+}
+
+.late {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 990px;
+  height: 500px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.late .table-content {
+  padding: 3rem;
+}
+
+.table-content table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 1px;
+  font-size: 20px;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+  border: 1px solid;
+  padding: 3px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #8e9aff;
+  color: black;
+}
+
+.table-content caption {
+  font-size: 20px;
+  text-align: center;
+  background-color: #4651b1;
+  padding: 10px;
+  color: white;
+}

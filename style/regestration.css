@@ -1,0 +1,166 @@
+/* public style */
+
+.row {
+  /* to put items next to each other */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+/* navbar */
+
+nav {
+  background-color: white;
+  box-shadow: 0 5px 15px rgb(25 25 25 / 10%);
+  padding: 2%;
+  /* make navbar fixed */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav img {
+  height: 30px;
+  width: 30px;
+}
+
+nav .main-title {
+  width: 20%;
+  color: black;
+  padding: 0px 170px 0px 0px;
+}
+
+nav .nav-list {
+  width: 60%;
+}
+
+nav .nav-list .list {
+  display: flex;
+  justify-content: right;
+}
+
+nav .nav-list .list-item a {
+  margin-right: 20px;
+  position: relative;
+  color: black;
+}
+
+nav .nav-list .list-item a:hover {
+  color: #4651b1;
+}
+
+/* footer */
+
+#footer {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background-color: #4651b1;
+}
+
+#footer .footer-logo img {
+  height: 30px;
+  width: 30px;
+  background-color: #4651b1;
+}
+
+#footer .footer-info {
+  padding: 30px 20px 0px 0px;
+}
+
+#footer .footer-info a {
+  color: white;
+}
+
+/* regestration */
+
+section {
+  padding: 2rem 9%;
+}
+
+.heading {
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.heading span {
+  font-size: 2rem;
+  background: #4651b1;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #4651b1;
+  color: white;
+  padding: 0.8rem 3rem;
+  border: 0.2rem solid #4651b1;
+  font-size: 1rem;
+}
+
+.regestration form {
+  padding: 2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.regestration form .inputbox {
+  padding: 0.5rem 0;
+}
+
+.regestration form .inputbox input {
+  width: 96%;
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: black;
+}
+
+.regestration form .inputbox select {
+  width: 99%;
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: black;
+}
+
+.regestration form .inputbox h3 {
+  font-size: 2rem;
+  color: black;
+}
+
+.regestration .inputbox input,
+select:required {
+  background-color: rgb(242, 236, 255);
+  border: 1px solid white;
+}
